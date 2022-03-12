@@ -1,0 +1,7 @@
+#Config FeignClient
+feign:
+  client:
+    config:
+      balancer-request:
+        connectTimeout: 5000
+        readTimeout: 5000
